@@ -6,7 +6,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -14,8 +14,14 @@
 
   <div class="container">
     <h1>Shopping List</h1>
-
+    <div class="alert alert-danger error-message" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <strong>Warning:</strong> Please enter an item to add.
+    </div>
     <form id="js-shopping-list-form">
+
       <label for="shopping-list-entry">Add an item</label>
       <input type="text" name="shopping-list-entry" id="shopping-list-entry" placeholder="e.g., broccoli">
       <button type="submit">Add item</button>
