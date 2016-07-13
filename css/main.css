@@ -40,3 +40,13 @@ button:hover {
 .redborder {
     border: 2px solid red;
 }
+.error-message {
+    display: none;
+    position: absolute;
+    top: 105px;
+    left: 320px;
+    width: 350px;
+}
+#js-shopping-list-form {
+    margin-bottom: 20px;
+}
