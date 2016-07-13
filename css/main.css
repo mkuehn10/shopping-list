@@ -43,10 +43,11 @@ button:hover {
 .error-message {
     display: none;
     position: absolute;
-    top: 105px;
-    left: 320px;
+    top: 35px;
+    left: 75px;
     width: 350px;
 }
 #js-shopping-list-form {
     margin-bottom: 20px;
+    position: relative;
 }
